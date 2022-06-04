@@ -1,4 +1,18 @@
-module.exports = () => {
+const Questions = require('../lib/Questions');
+const Employee = require('../lib/Employee');
+
+const generateEmployee = employee => {
+
+    console.log(this.employee.getName());
+
+    return `
+    <div>
+    ${employee.getRole()}
+    </div>
+    `
+}
+
+module.exports = employee => {
     
 
     return `
@@ -17,6 +31,7 @@ module.exports = () => {
 </head>
 
 <body>
+${generateEmployee(employee)}
     <header>
         <div class="container flex-row justify-space-between align-center py-3">
             <h1 class="page-title text-secondary bg-dark py-2 px-3"></h1>
