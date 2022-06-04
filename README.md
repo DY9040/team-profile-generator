@@ -1,4 +1,4 @@
-# Team-Generator ![bad math](https://img.shields.io/badge/License-Mozilla 2.0-blue)
+# Team-Generator ![bad math](https://img.shields.io/badge/License-MIT-blue)
 
 ## Description
 This project is designed for PM's to create teams in a quick and timely manner.
@@ -17,15 +17,18 @@ This project is designed for PM's to create teams in a quick and timely manner.
 To install this project you can clone or download the zip file. Install Node, navigate to the root directory of the project in your terminal. Type npm install and then node app to get the questions started.
 
 ## Usage
-[screenshot](/assets/images/Capture.PNG "screenshot") 
-Navigate to the root directory of the project type node app and hit enter. Answer the questions then look in the dist folder for the output. 
+
+![screenshot](/assets/images/Capture.PNG "screenshot")
+
+Navigate to the root directory of the project type node app and hit enter. 
+Answer the questions then look in the dist folder for the output. 
 
 ## License
-![bad math](https://img.shields.io/badge/License-Mozilla 2.0-blue)
+![bad math](https://img.shields.io/badge/License-MIT-blue)
 
 This project is using Mozilla 2.0. For more information on this or other licenses please reference: [https://choosealicense.com](https;//choosealicense.com).
 
-Mozilla 2.0
+MIT
 
 ## Credits
 N/A
