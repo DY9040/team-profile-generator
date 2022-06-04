@@ -7,7 +7,7 @@
 body {
     overflow-x: hidden;
     margin: 0;
-    background-color: #13131A;
+    background-color: #2F2F41;
     color: var(--primary-color);
     font-family: 'Poppins', sans-serif;
 }
@@ -51,8 +51,13 @@ nav a {
     color: var(--primary-color);
 }
 
+.section-full {
+    height: 100vh;
+    background-color: #2F2F41;
+    min-height: 100vh;
+}
 .section-bio {
-    background-color: #13131A;
+    background-color: #2F2F41;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -85,10 +90,11 @@ nav a {
 }
 
 h1 {
-    font-size: 35vw;
+    font-size: 5vw;
     word-wrap: break-word;
     animation-fill-mode: forwards;
     letter-spacing: -.02rem;
+    text-align: center;
 }
 
 .first-name {
@@ -123,25 +129,25 @@ h1 {
 }
 
 .post-info {
-    font-size: 16px;
+    font-size: 20px;
     letter-spacing: 4px;
     margin-top: -1rem;
 }
 
 .post-title {
-    font-size: 25px;
+    font-size: 30px;
     font-family: "nunito", sans-serif;
     color: #fff;
     margin: 1rem 0;
 }
 
 .post-description {
-    font-size: 13px;
+    font-size: 16px;
     font-family: "nunito", sans-serif;
 }
 
 section-content {
-    background-color: #13131A;
+    background-color: #2F2F41;
 }
 
 .contact-photo {
