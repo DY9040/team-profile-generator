@@ -1,6 +1,7 @@
 const Questions = require('../lib/Questions');
 const Employee = require('../lib/Employee');
 const Manager = require('../lib/Manager');
+const Engineer = require('../lib/Engineer');
 
 //Manager//
 
@@ -9,11 +10,11 @@ const generateManager = teamList => {
     return `
     ${teamList
     .filter(({ office }) => office)
-    .map(({ name, id, email, office }) => {
+    .map(({ name, id, email, office, getRole }) => {
         return `
         <article class="project-article" style="border-top-color: #4588F7;">
                 <div class="project-content">
-                    <div class="post-info" style="color: #4588f7;"><span class="fa-solid fa-bullhorn">Manager</div>
+                    <div class="post-info" style="color: #4588f7;"><span class="fa-solid fa-bullhorn"></span>${getRole()}</div>
                         <h5 class="post-title">${name}</h5>
                         <div class="post-description">ID: ${id} <br> Email: ${email} <br> Office: ${office}</div>
                 </div>
@@ -30,11 +31,11 @@ const generateEngineer = teamList => {
     return `
     ${teamList
     .filter(({ github }) => github)
-    .map(({ name, id, email, github }) => {
+    .map(({ name, id, email, github, getRole}) => {
         return `
         <article class="project-article" style="border-top-color: #FF3AF3;">
                 <div class="project-content">
-                    <div class="post-info" style="color: #FF3AF3;"><span class="fa-solid fa-code">Engineer</div>
+                    <div class="post-info" style="color: #FF3AF3;"><span class="fa-solid fa-code"></span>${getRole()}</div>
                         <h5 class="post-title">${name}</h5>
                         <div class="post-description">ID: ${id} <br> Email: ${email} <br> Github: ${github}</div>
                 </div>
@@ -51,11 +52,11 @@ const generateIntern = teamList => {
         return `
         ${teamList
         .filter(({ school }) => school)
-        .map(({ name, id, email, school }) => {
+        .map(({ name, id, email, school, getRole }) => {
             return `
             <article class="project-article" style="border-top-color: #7463F4;">
                     <div class="project-content">
-                        <div class="post-info" style="color: #7463F4;"><span class="fa-solid fa-graduation-cap">Intern</div>
+                        <div class="post-info" style="color: #7463F4;"><span class="fa-solid fa-graduation-cap"></span>${getRole()}</div>
                             <h5 class="post-title">${name}</h5>
                             <div class="post-description">ID: ${id} <br> Email: ${email} <br> School: ${school}</div>
                     </div>
