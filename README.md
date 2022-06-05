@@ -19,7 +19,7 @@ To install this project you can clone or download the zip file. Install Node, na
 ## Usage
 
 ![screenshot](/assets/images/Capture.PNG "screenshot")
-![screenshot](/assets/video/team-generator.mp4 "screenshot")
+https://drive.google.com/file/d/1ZGsKYPNM13aBbZCj1dWTHqrhM0_4lh_Z/view?usp=sharing
 
 Navigate to the root directory of the project type node app and hit enter. 
 Answer the questions then look in the dist folder for the output. 
